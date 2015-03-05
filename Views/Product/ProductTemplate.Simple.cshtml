@@ -191,17 +191,8 @@
 
 
                             
-@{
-    // Call the Marketplace api to get the Frequently Bought Together products for this product
-    var prediction = GetJsonObject("https://api.datamarket.azure.com/data.ashx/amla/mba/v1/Score?Id=JosephMart&Item=" + Product.Id,
-        "AccountKey", "Q6pX0DpKFsoFSgbxstlgzo1wtmCMQhr0Kf4rkyMuTVQ");
+<img src="/Content/Images/FBT_Placeholder.jpg" alt="Frequently Bought Together" style="margin-top: 20px" />
 
-    // Get the product information from the Database
-    List<ProductOverviewModel> boughtTogether = GetProducts(prediction.ItemSet);
-}
-
-<!-- Apply HTML template for the Frequently Bought Together Products -->
-@Html.Partial("FrequentlyBoughtTogether", boughtTogether)
 
                             
 

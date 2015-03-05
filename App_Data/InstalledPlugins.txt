@@ -1,0 +1,6 @@
+Misc.FacebookShop
+Payments.Manual
+Shipping.FixedRate
+Tax.FixedRate
+Widgets.NivoSlider
+Widgets.GoogleAnalytics

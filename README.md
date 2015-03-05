@@ -1,2 +1,4 @@
-# JosephMart
-JosephMart site that demonstrates Frequently Bought Together By Azure Machine Learning
+FBT
+===
+
+Frequently Bought Together API built with Azure Machine Learning

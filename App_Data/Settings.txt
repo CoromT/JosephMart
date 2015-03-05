@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=tcp:ks45rzu9bn.database.windows.net,1433;Initial Catalog=JosephMart405;User Id=Corom@ks45rzu9bn;Password=Azure!vm
